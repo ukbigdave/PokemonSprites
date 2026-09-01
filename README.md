@@ -54,6 +54,8 @@ sprites
             \- platinum (PNGs with back, female, shiny, back-female, back-shiny, shiny-female variants)
         \- generation v
             \- black and white (PNGs with back, female, shiny, back-female, back-shiny, shiny-female, animated variants)
+            \- icons (PNGs)
+                \- animated (PNGs)
         \- generation vi
             \- omega ruby and alpha sapphire (PNGs with female, shiny, shiny-female variants)
             \- x and y (PNGs with female, shiny, shiny-female variants)
@@ -73,6 +75,8 @@ sprites
 > All the following images are embedded at a maximum 100x100px size. All the smaller ones preserve their size while the bigger ones are embedded at 100x100px.
 
 ### `pokemon`
+
+Interested in helping us complete the default Gen 5 style sprite collection? See [CONTRIBUTING_SPRITES.md](./CONTRIBUTING_SPRITES.md) for details on our maintenance scripts for National Dex 650+.
 
 #### `other`
 
@@ -97,7 +101,7 @@ sprites
 | PNG<br>_475x475_ | PNG<br>_475x475_|
 | <img src="sprites/pokemon/other/official-artwork/25.png" width="100"/> | <img src="sprites/pokemon/other/official-artwork/shiny/25.png" width="100"/> |
 
-This folder contains the custom shiny sprites of the official artwork. We thank [@DevMike123](https://github.com/DevMike123) and Pokétwo who are the spriters that created these custom shiny sprites.
+This folder contains the custom shiny sprites of the official artwork. We thank [@DevMike123](https://github.com/DevMike123), [@JoseBaGra](https://github.com/JoseBaGra), and Pokétwo who are the spriters that created these custom shiny sprites.
 
 ##### `showdown`
 
@@ -204,8 +208,6 @@ This folder contains the official B&W sprites on top of custom sprites designed 
 
 - The sprites with IDs greater than 650 are thus not official. You can find the source of these sprites at this [Smogon thread](https://www.smogon.com/forums/threads/sword-shield-sprite-project.3647722/) and also at this [Google Sheet](https://docs.google.com/spreadsheets/d/1acgzAjh0dnFRQnjZu8kSjS177rKCzpFfEHRLtwuuXRU/edit#gid=0). We thank leParagon, Blaquaza, TheAetherPlayer, G.E.Z., KingOfThe-X-Roads, Spook, Cynda, Involuntary Twitch, mjco, Z-nogyroP, PumpkinPastel, RadicalCharizard, HM100, N-Kin, Zerudez, MyMarshlands, Wobblebuns, princessofmusic, aXl, fishbowlsoul90, HealnDeal, Espeon Scientist, AMVictory, Mega-Pokebattlerz, Layell, GeoisEvil, Quanyails, RedRooster, Wyverii, Basic Vanillite, Larryturbo, TheCynicalPoet, Arkeis, paintseagull, Branflakes325, Siiilver, Noscium, Sleet, Zermonious, Bynine, Corson, Legitimate Username, TrainerSplash, Farriella, MrDollSteak, TeraVolt, Dleep, WPS, Brylark, KattenK, Travis, SpheX, SelenaArmorclaw and Hematite, who are the spriters that created these custom B&W sprites.
 
-- Special thanks to [KingOfThe-X-Roads](https://www.deviantart.com/kingofthe-x-roads) for providing the front_default sprites for generation 9.
-
 | Front | Back | Front female | Front shiny | Back female | Back shiny | Shiny female |
 | --- | --- | --- | --- | --- | --- | --- |
 | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ |
@@ -218,6 +220,19 @@ Animated
 | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ |
 | <img src="sprites/pokemon/versions/generation-v/black-white/animated/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/back/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/female/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/shiny/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/back/female/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/shiny/female/25.gif"/> |
 
+###### `icons`
+
+| Front |
+| --- |
+| PNG<br>_32x32_ |
+| <img src="sprites/pokemon/versions/generation-v/icons/25.png" width="32"/> |
+
+Animated
+
+| Front |
+| --- |
+| PNG<br>_32x32_ |
+| <img src="sprites/pokemon/versions/generation-v/icons/animated/25.png" width="32"/> |
 
 ##### `generation vi`
 
@@ -283,6 +298,8 @@ Animated
 | PNG<br>_256x256_ |
 | <img src="sprites/pokemon/versions/generation-ix/scarlet-violet/25.png" width="100"/> |
 
-## Thanks
+## Special Thanks
 
-We would like to thank the [Smogon community](https://www.smogon.com/) for allowing us to use and serve their custom B&W-style sprites for the Pokemon with IDs greater than 650. Check out their free and open-source Pokemon Battle Simulator at [Pokémon Showdown](https://github.com/smogon/pokemon-showdown)
+- We would like to thank the [Smogon community](https://www.smogon.com/) for allowing us to use and serve their custom B&W-style sprites for the Pokemon with IDs greater than 650. Check out their free and open-source Pokemon Battle Simulator at [Pokémon Showdown](https://github.com/smogon/pokemon-showdown)
+- [KingOfThe-X-Roads](https://www.deviantart.com/kingofthe-x-roads) for providing the front_default sprites for generation 9.
+- [x.com/DoveKyle](https://x.com/DoveKyle)/[github.com/kyledovey](https://github.com/kyledovey) for providing the back_default, back_shiny and z-a mega sprites for generation 9.
